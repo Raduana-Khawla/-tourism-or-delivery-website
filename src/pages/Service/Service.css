@@ -1,0 +1,11 @@
+.service1{
+    background-color: darkgrey;
+}
+.service1:hover{
+    overflow: hidden;
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+.demo{
+    background-color: gray;
+}

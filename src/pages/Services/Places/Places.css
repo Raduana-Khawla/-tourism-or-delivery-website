@@ -1,0 +1,30 @@
+.card1{
+    height: 400px;
+    background-size: cover;
+     background-position: center;
+    background-image: url('https://i.ibb.co/6n7HJHV/longest-sea-beach-in.jpg');
+}
+.card2{
+    height: 400px;
+    background-size: cover;
+     background-position: center;
+    background-image: url('https://i.ibb.co/HzzzkqH/amiakhum-bandarban.jpg');
+}
+.card3{
+    background-image: url('https://scontent.fdac27-1.fna.fbcdn.net/v/t1.6435-9/62609561_772770089786070_8137946269722083328_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=0debeb&_nc_ohc=gFa5KoH2EY8AX-Vaf4-&_nc_ht=scontent.fdac27-1.fna&oh=0f310107973bb73d2c0e19eb2975715a&oe=61A5D50C');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+.card4{
+     background-image: url('https://scontent.fdac27-1.fna.fbcdn.net/v/t1.6435-9/242951344_1379742355755504_3476063412383975423_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=0debeb&_nc_ohc=NOOQbzxZkyQAX8_w7H0&_nc_ht=scontent.fdac27-1.fna&oh=e1c3d9fbe69762ad60d7f2afb647ff6e&oe=61A2BD44'); 
+     background-size: cover;
+     background-position: center;
+     height: 200px;
+}
+i{
+    color: orange;
+}
+hr{
+    width: 100px;
+}

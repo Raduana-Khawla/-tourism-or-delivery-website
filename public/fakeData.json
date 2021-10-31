@@ -1,0 +1,112 @@
+[
+    {
+        "id": "1",
+        "name": "Ahsan Manzil",
+        "place": "Dhaka, Old-Town",
+        "price": "3000",
+        "star": "3",
+        "people": "3",
+        "time": "1D",
+        "reviews": "100",
+        "description": "Ahsan Manzil used to be the official residential palace and seat of the Nawab of Dhaka. ... The building is situated at Kumartoli along the banks of the Buriganga.",
+        "imageURL": "https://i.ibb.co/chvCXW3/Ahsan-Mongil.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Narsunda Lake City",
+        "place": "Kishoreganj",
+        "price": "10000",
+        "star": "3",
+        "people": "5",
+        "time": "1D",
+        "reviews": "500",
+        "description": "Narsunda Lake City, Kishorganj. Kishorganj is a place of the creed of respectively Sanatana and Loukik Islam. Both Meghna and Brahmaputra river have contributed.",
+        "imageURL": "https://i.ibb.co/48DtvcD/Narashunda-Lakecity-Kishoreganj.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Mosque of Bagerhat",
+        "place": "Bagerhat, Khulna",
+        "price": "15000",
+        "star": "3",
+        "people": "3",
+        "time": "3D",
+        "reviews": "1000",
+        "description": "The Historic Mosque City of Bagerhat is an important evidence of medieval city in the south-west part of present Bagerhat district which is located in the south",
+        "imageURL": "https://i.ibb.co/6HSybwM/Bagerhat.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Lalbagh kella",
+        "place": "Dhaka, Old-town",
+        "price": "5000",
+        "star": "3",
+        "people": "5",
+        "time": "1D",
+        "reviews": "100",
+        "description": "During the height of the Mughal Empire, in 1677, Prince Muhammad Azam commissioned the construction of Lalbagh Fort, but the project was never completed.",
+        "imageURL": "https://i.ibb.co/sKdTSCS/Lalbagh.webp"
+    },
+    {
+        "id": "5",
+        "name": "Longest-sea-beach",
+        "place": "Cox's Bazar, Chittagong",
+        "price": "24000",
+        "star": "5",
+        "people": "4",
+        "time": "2D",
+        "reviews": "3000",
+        "description": "Cox's Bazar in Bangladesh is the world's longest natural sea beach, and a popular tourist destination in the country.",
+        "imageURL": "https://i.ibb.co/6n7HJHV/longest-sea-beach-in.jpg" 
+    },
+    {
+        "id": "6",
+        "name": "Sunamganj-lack",
+        "place": "Syllet",
+        "price": "35000",
+        "star": "5",
+        "people": "8",
+        "time": "5D",
+        "reviews": "1500",
+        "description": "Sunamganj (Bengali: সুনামগঞ্জ) is a district located in north-eastern Bangladesh within the Sylhet Division.",
+        "imageURL": "https://i.ibb.co/1LKQMQJ/sunamjang.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Tea-Garden-Sylhet",
+        "place": "Hobigong, Syllet",
+        "price": "5000",
+        "star": "5",
+        "people": "4",
+        "time": "3D",
+        "reviews": "5000",
+        "description": "A visit to the tea plantation in Sylhet would be the memorable experience for any one. The gardens are relics from the days of the British Raj.",
+        "imageURL": "https://i.ibb.co/HtRGG7G/Tea-Garden-Sylhet-Bangladesh-Sylhet.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Amiakhum",
+        "place": "Bandarban",
+        "price": "10000",
+        "star": "5",
+        "people": "5",
+        "time": "2D",
+        "reviews": "3000",
+        "description": "Amiakhum is my second most favorite waterfall in the whole of the country. It is located deep within the hills. Roughtly a day and half walk away from Remakri.",
+        "imageURL": "https://i.ibb.co/HzzzkqH/amiakhum-bandarban.jpg" 
+    },
+    
+    {
+        "id": "9",
+        "name": "Saint-Martin",
+        "place": "Tacnaf, Chittagong",
+        "price": "24000",
+        "star": "5",
+        "people": "4",
+        "time": "2D",
+        "reviews": "3000",
+        "description": "Saint Martin (French: Saint-Martin; Dutch: Sint Maarten) is an island in the northeast Caribbean Sea, approximately 300 km (190 mi) east of Puerto Rico.",
+        "imageURL": "https://i.ibb.co/mThxYFK/saint-martine.jpg" 
+    }
+    
+]
