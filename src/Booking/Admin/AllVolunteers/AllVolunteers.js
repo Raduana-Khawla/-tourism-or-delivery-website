@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Table } from "react-bootstrap";
-
 const AllVolunteers = () => {
   const [volunteer, setVounteer] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/allVolunteer")
+    fetch("http://localhost:5000/allVolunteer")
       .then((res) => res.json())
       .then((data) => setVounteer(data));
   }, []);

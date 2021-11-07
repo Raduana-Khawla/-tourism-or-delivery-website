@@ -29,14 +29,13 @@ const Menubar = () => {
         <Nav.Link as={HashLink} to="/tour"><span id="color">Tour</span></Nav.Link>
         <Nav.Link as={HashLink} to="/services"><span id="color">Packages</span></Nav.Link>
         <Nav.Link as={HashLink} to="/blog"><span id="color">Blog</span></Nav.Link>
-        <Nav.Link as={HashLink} to="/Events"><span id="color">Events</span></Nav.Link>
-        <Nav.Link as={HashLink} to="/myEvents"><span id="color">OurEvents</span></Nav.Link>
+        <Nav.Link as={HashLink} to="/myOrders"><span id="color">MyOrders</span></Nav.Link>
         <Nav.Link as={HashLink} to="/adminDashboard"><span id="color"><button className="items btn btn-danger p-1 ">Admin</button></span></Nav.Link>
         {user?.email ?
         <button onClick={logOut} variant="light">Logout</button>
         :<Nav.Link as={Link} to="/login"><span id="color">Login</span></Nav.Link>}
         <Nav.Link as={HashLink} to="/notFound"><span id="color">NotFound</span></Nav.Link>
-        <Navbar.Text><span id="color">Signed in as:</span>  <a href="#login">{user?.displayName}</a> </Navbar.Text> 
+        <Navbar.Text><span id="color">Signed in as:</span>  <a href="#login">{user?.email}</a> </Navbar.Text> 
      </Navbar.Collapse>
     </Container>
   </Navbar>

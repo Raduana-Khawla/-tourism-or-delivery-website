@@ -48,6 +48,7 @@ const Register = () => {
             .then((res) => {
                     setIsLoading(true)
                     setUser(res.user)
+                    // sessionStorage.setItem("email", res.user.email);
                     history.push(url)
                   })
                 .catch((err) => console.log(err))

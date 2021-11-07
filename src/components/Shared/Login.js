@@ -1,7 +1,8 @@
 import React,{useState} from 'react';
-import BannerImage from '../../images/Banner.jpg';
+import BannerImage from '../../images/hill.jpg';
 import useAuth from '../../hooks/useAuth';
 import { Link, useLocation, useHistory } from 'react-router-dom';
+import './Login.css';
 
 const Login = () => {
     
@@ -30,8 +31,6 @@ const Login = () => {
         history.push(url)
         })
        .catch((error) => {
-        // const errorCode = error.code;
-        // const errorMessage = error.message;
         })
         .finally(() => {
             setIsLoading(false)
@@ -40,10 +39,11 @@ const Login = () => {
 
     const handleGoogleLogin = () => {
         signInUsingGoogle()
-            .then((res) =>
+            .then((result) =>
              {
                 setIsLoading(true)
-                setUser(res.user)
+                setUser(result.user);
+                sessionStorage.setItem("email", result.user.email);
                 history.push(url);
             })
            .catch((err) => console.log(err))
@@ -54,7 +54,7 @@ const Login = () => {
     return (
         <div className=" container">
             <div className="row align-items-center" style={{ height: "100vh" }}>
-              <div className="col-md-6 col-sm-12 shadow p-5 bg-warning">
+              <div className="col-md-6 col-sm-12 shadow p-5 bg-danger">
                 <h2>Login</h2>
                     <form onSubmit={handleLogin}>
                         <h6>User Name</h6>
@@ -62,9 +62,6 @@ const Login = () => {
                         <h6>Password</h6>
                         <input type="password" onBlur={handleGetPassword}
                         placeholder="Your Password" />
-                    {/* <div className="form-group">
-                        <label htmlFor="" className="text-danger">Forgot your password?</label>
-                    </div> */}
                     <br /><br />
                         <input className="bg-danger" type="submit"  value="login" />
                     </form>
@@ -75,8 +72,8 @@ const Login = () => {
                     onClick={handleGoogleLogin}
                 >Google Sign In</button>
                 </div>
-                <div className="col-md-6 col-sm-12 d-none d-md-block">
-                    <img className="img-fluid" src={BannerImage} alt="" />
+                <div className="col-md-6"style={{ height: "100vh" }} >
+                    <img className="img-fluid item" src={BannerImage} alt="" />
                 </div>
               </div>
             </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-// import useFirebase from "../../Hook/useFirebase";
 import useAuth from "../../hooks/useAuth";
 
 const AddEvents = () => {
@@ -66,9 +65,7 @@ const AddEvents = () => {
                 <option value="black">black</option>
               </select>
               <br />
-
               {errors.exampleRequired && <span>This field is required</span>}
-
               <input type="submit" value="Add" className="btn btn-info w-50" />
             </form>
           </div>

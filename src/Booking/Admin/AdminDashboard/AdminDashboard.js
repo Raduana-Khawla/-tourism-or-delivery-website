@@ -1,13 +1,11 @@
 import React, { useState } from "react";
-import AddEvents from "../../AddEvents/AddEvents";
 import "./AdminDashboard.css";
-import Events from "./../../Events/Events";
-import AllVolunteers from "./../AllVolunteers/AllVolunteers";
-// import AddEvents from "./../../AddEvents/AddEvents";
+import Services from "../../../pages/Services/Services";
+import AddServices from "../../../pages/AddServices/AddServices";
+import ManageOrder from "../../ManageOrder/ManageOrder";
 
 const AdminDashboard = () => {
-  const [control, setControl] = useState("allVolunteers");
-
+  const [control, setControl] = useState("addServices");
   console.log(control);
   return (
     <div className="admin-container">
@@ -19,30 +17,39 @@ const AdminDashboard = () => {
                 <h6>Dashboard</h6>
                 <div className="all-menu mt-5">
                   <li
-                    onClick={() => setControl("allVolunteers")}
+                    onClick={() => setControl("addServices")}
                     className="admin-menu p-2"
                   >
-                    All Volunteers
+                    Add Services
+                  </li>
+
+                  <li
+                    onClick={() => setControl("services")}
+                    className="admin-menu p-2"
+                  >
+                    Manage Services
                   </li>
                   <li
-                    onClick={() => setControl("addEvents")}
+                    onClick={() => setControl("manageOrder")}
                     className="admin-menu p-2"
                   >
-                    Add Events
+                    Manage Orders
                   </li>
                   <li
-                    onClick={() => setControl("allEvents")}
+                    onClick={() => setControl("status")}
                     className="admin-menu p-2"
                   >
-                    Manage Events
+                    Orders Status
                   </li>
                 </div>
               </div>
             </div>
             <div className="col-md-9 text-center  text-center">
-              {control === "allVolunteers" && <AllVolunteers></AllVolunteers>}
-              {control === "allEvents" && <Events></Events>}
-              {control === "addEvents" && <AddEvents></AddEvents>}
+              <h1>render your components</h1>
+
+              {control === "services" && <Services></Services>}
+              {control === "manageOrder" && <ManageOrder></ManageOrder>}
+              {control === "addServices" && <AddServices></AddServices>}
             </div>
           </div>
         </div>

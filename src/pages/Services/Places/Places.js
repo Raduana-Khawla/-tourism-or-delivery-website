@@ -44,21 +44,17 @@ const Places=()=>{
                 <i className="far fa-star"></i>
             </div>
             </div>   
-     </div>
-
-                    </div>
-                </div> 
+          </div>
+         </div>
+    </div> 
+          <div className="col-md-6">
                 
-                <div className="col-md-6">
-                   
-                {/* </div>
-                <div className="col-md-6"> */}
-                    <div className="row">
-                        <div className="col-md-12 mb-2">
-                        <div className="card3">
-                        <button className="mt-3 me-5 btn-primary">Cox's Bazar</button>
-                        <div className="design">
-                            <h3 className="text-white">Longest-sea-beach</h3>
+            <div className="row">
+                <div className="col-md-12 mb-2">
+                <div className="card3">
+                <button className="mt-3 me-5 btn-primary">Tea-Garden-Sylhet</button>
+                <div className="design">
+                    <h3 className="text-white">Sylhet</h3>
                             {/* rating */}
                             <i className="fas fa-star"></i>
                             <i className="fas fa-star"></i>
@@ -72,9 +68,9 @@ const Places=()=>{
                     {/* <div className="row"> */}
                         <div className="col-md-12">
                         <div className="card3">
-                        <button className="mt-3 me-5 btn-primary">Cox's Bazar</button>
+                        <button className="mt-3 me-5 btn-primary">Narsingdi RailStation</button>
                         <div className="design">
-                            <h3 className="text-white">Longest-sea-beach</h3>
+                            <h3 className="text-white">Narsingdi RailStation</h3>
                             {/* rating */}
                             <i className="fas fa-star"></i>
                             <i className="fas fa-star"></i>

@@ -12,11 +12,10 @@ import Login from './components/Shared/Login';
 import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import Footer from './components/Shared/Footer/Footer';
-import AddEvents from './Booking/AddEvents/AddEvents';
-import MyEvents from './Booking/MyEvents/MyEvents';
  import AddVolunteer from "./Booking/Admin/AllVolunteers/AllVolunteers";
  import AdminDashboard from "./Booking/Admin/AdminDashboard/AdminDashboard";
- import Events from "./Booking/Events/Events";
+import AddServices from './pages/AddServices/AddServices';
+import MyOrders from './pages/MyOrders/MyOrders';
 
 function App() {
   return (
@@ -40,8 +39,11 @@ function App() {
         <PrivetRoute path="/bookService/:id">
          <ServiceDetail></ServiceDetail>
         </PrivetRoute>
-        <PrivetRoute path="/blog">
+        <Route path="/blog">
           <Blog></Blog>
+        </Route>
+        <PrivetRoute path="/myOrders">
+          <MyOrders></MyOrders>
         </PrivetRoute>
         <Route path="/login">
         <Login></Login>
@@ -49,14 +51,8 @@ function App() {
         <Route path="/register">
        <Register></Register>
         </Route>
-        <Route exact path="/myEvents">
-            <MyEvents></MyEvents>
-          </Route>
-          <Route exact path="/events">
-             <Events></Events>
-          </Route>
-          <Route exact path="/addEvents">
-            <AddEvents></AddEvents>
+        <Route exact path="/addServices">
+          <AddServices></AddServices>
           </Route>
           <Route exact path="/adminDashboard">
             <AdminDashboard></AdminDashboard>

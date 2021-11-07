@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service=(props)=>{
-    const { name, time, imageURL, description, id,price } = props.service;
+    const { name, time, imageURL, description ,price } = props.service;
     return(
             <>   
             <div className="col-md-3 mb-2">
@@ -34,15 +34,23 @@ const Service=(props)=>{
                             <span className="ms-3">Envelop</span>
                         </Link>
                     </div>
-                    <div className="design">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                    </div>
+                <div className="d-flex">
+                <div className="design">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                </div>
+                </div>
+                <div className="mb-2">
+                   <Link to={`/bookService/${props.service._id}`}>
+                        <button className="btn px-3 btn-success">Add to Cart</button>
+                    </Link>
+               </div>
                 </div>
                </div>
+               
             </>
 );
 };

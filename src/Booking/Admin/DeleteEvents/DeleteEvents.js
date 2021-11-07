@@ -1,5 +1,5 @@
 import React from "react";
-
+import './DeleteEvents.css'
 const DeleteEvents = () => {
   return (
     <div>
