@@ -7,7 +7,6 @@ const Services = () => {
     //loading data
     useEffect(() => {
          fetch(`http://localhost:5000/services`)
-        // fetch('./fakeData.json')
         .then(res => res.json())
         .then(data => {
             console.log(data);
